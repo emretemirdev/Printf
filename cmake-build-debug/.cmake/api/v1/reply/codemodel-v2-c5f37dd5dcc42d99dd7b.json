@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/emre/Masa\u00fcst\u00fc/printf/cmake-build-debug",
-		"source" : "/home/emre/Masa\u00fcst\u00fc/printf"
+		"build" : "/home/emre/Masa\u00fcst\u00fc/Printf-1/cmake-build-debug",
+		"source" : "/home/emre/Masa\u00fcst\u00fc/Printf-1"
 	},
 	"version" : 
 	{
