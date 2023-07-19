@@ -69,31 +69,95 @@ include CMakeFiles/printf.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/printf.dir/flags.make
 
-CMakeFiles/printf.dir/main.c.o: CMakeFiles/printf.dir/flags.make
-CMakeFiles/printf.dir/main.c.o: /home/emre/Masaüstü/Printf-1/main.c
-CMakeFiles/printf.dir/main.c.o: CMakeFiles/printf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/emre/Masaüstü/Printf-1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/printf.dir/main.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/printf.dir/main.c.o -MF CMakeFiles/printf.dir/main.c.o.d -o CMakeFiles/printf.dir/main.c.o -c /home/emre/Masaüstü/Printf-1/main.c
+CMakeFiles/printf.dir/ft_printf.c.o: CMakeFiles/printf.dir/flags.make
+CMakeFiles/printf.dir/ft_printf.c.o: /home/emre/Masaüstü/Printf-1/ft_printf.c
+CMakeFiles/printf.dir/ft_printf.c.o: CMakeFiles/printf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/emre/Masaüstü/Printf-1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/printf.dir/ft_printf.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/printf.dir/ft_printf.c.o -MF CMakeFiles/printf.dir/ft_printf.c.o.d -o CMakeFiles/printf.dir/ft_printf.c.o -c /home/emre/Masaüstü/Printf-1/ft_printf.c
 
-CMakeFiles/printf.dir/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/printf.dir/main.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/emre/Masaüstü/Printf-1/main.c > CMakeFiles/printf.dir/main.c.i
+CMakeFiles/printf.dir/ft_printf.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/printf.dir/ft_printf.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/emre/Masaüstü/Printf-1/ft_printf.c > CMakeFiles/printf.dir/ft_printf.c.i
 
-CMakeFiles/printf.dir/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/printf.dir/main.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/emre/Masaüstü/Printf-1/main.c -o CMakeFiles/printf.dir/main.c.s
+CMakeFiles/printf.dir/ft_printf.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/printf.dir/ft_printf.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/emre/Masaüstü/Printf-1/ft_printf.c -o CMakeFiles/printf.dir/ft_printf.c.s
+
+CMakeFiles/printf.dir/ft_formats.c.o: CMakeFiles/printf.dir/flags.make
+CMakeFiles/printf.dir/ft_formats.c.o: /home/emre/Masaüstü/Printf-1/ft_formats.c
+CMakeFiles/printf.dir/ft_formats.c.o: CMakeFiles/printf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/emre/Masaüstü/Printf-1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/printf.dir/ft_formats.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/printf.dir/ft_formats.c.o -MF CMakeFiles/printf.dir/ft_formats.c.o.d -o CMakeFiles/printf.dir/ft_formats.c.o -c /home/emre/Masaüstü/Printf-1/ft_formats.c
+
+CMakeFiles/printf.dir/ft_formats.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/printf.dir/ft_formats.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/emre/Masaüstü/Printf-1/ft_formats.c > CMakeFiles/printf.dir/ft_formats.c.i
+
+CMakeFiles/printf.dir/ft_formats.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/printf.dir/ft_formats.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/emre/Masaüstü/Printf-1/ft_formats.c -o CMakeFiles/printf.dir/ft_formats.c.s
+
+CMakeFiles/printf.dir/ft_print_addr.c.o: CMakeFiles/printf.dir/flags.make
+CMakeFiles/printf.dir/ft_print_addr.c.o: /home/emre/Masaüstü/Printf-1/ft_print_addr.c
+CMakeFiles/printf.dir/ft_print_addr.c.o: CMakeFiles/printf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/emre/Masaüstü/Printf-1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/printf.dir/ft_print_addr.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/printf.dir/ft_print_addr.c.o -MF CMakeFiles/printf.dir/ft_print_addr.c.o.d -o CMakeFiles/printf.dir/ft_print_addr.c.o -c /home/emre/Masaüstü/Printf-1/ft_print_addr.c
+
+CMakeFiles/printf.dir/ft_print_addr.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/printf.dir/ft_print_addr.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/emre/Masaüstü/Printf-1/ft_print_addr.c > CMakeFiles/printf.dir/ft_print_addr.c.i
+
+CMakeFiles/printf.dir/ft_print_addr.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/printf.dir/ft_print_addr.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/emre/Masaüstü/Printf-1/ft_print_addr.c -o CMakeFiles/printf.dir/ft_print_addr.c.s
+
+CMakeFiles/printf.dir/ft_print_hex.c.o: CMakeFiles/printf.dir/flags.make
+CMakeFiles/printf.dir/ft_print_hex.c.o: /home/emre/Masaüstü/Printf-1/ft_print_hex.c
+CMakeFiles/printf.dir/ft_print_hex.c.o: CMakeFiles/printf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/emre/Masaüstü/Printf-1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/printf.dir/ft_print_hex.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/printf.dir/ft_print_hex.c.o -MF CMakeFiles/printf.dir/ft_print_hex.c.o.d -o CMakeFiles/printf.dir/ft_print_hex.c.o -c /home/emre/Masaüstü/Printf-1/ft_print_hex.c
+
+CMakeFiles/printf.dir/ft_print_hex.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/printf.dir/ft_print_hex.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/emre/Masaüstü/Printf-1/ft_print_hex.c > CMakeFiles/printf.dir/ft_print_hex.c.i
+
+CMakeFiles/printf.dir/ft_print_hex.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/printf.dir/ft_print_hex.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/emre/Masaüstü/Printf-1/ft_print_hex.c -o CMakeFiles/printf.dir/ft_print_hex.c.s
+
+CMakeFiles/printf.dir/ft_print_utils.c.o: CMakeFiles/printf.dir/flags.make
+CMakeFiles/printf.dir/ft_print_utils.c.o: /home/emre/Masaüstü/Printf-1/ft_print_utils.c
+CMakeFiles/printf.dir/ft_print_utils.c.o: CMakeFiles/printf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/emre/Masaüstü/Printf-1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/printf.dir/ft_print_utils.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/printf.dir/ft_print_utils.c.o -MF CMakeFiles/printf.dir/ft_print_utils.c.o.d -o CMakeFiles/printf.dir/ft_print_utils.c.o -c /home/emre/Masaüstü/Printf-1/ft_print_utils.c
+
+CMakeFiles/printf.dir/ft_print_utils.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/printf.dir/ft_print_utils.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/emre/Masaüstü/Printf-1/ft_print_utils.c > CMakeFiles/printf.dir/ft_print_utils.c.i
+
+CMakeFiles/printf.dir/ft_print_utils.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/printf.dir/ft_print_utils.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/emre/Masaüstü/Printf-1/ft_print_utils.c -o CMakeFiles/printf.dir/ft_print_utils.c.s
 
 # Object files for target printf
 printf_OBJECTS = \
-"CMakeFiles/printf.dir/main.c.o"
+"CMakeFiles/printf.dir/ft_printf.c.o" \
+"CMakeFiles/printf.dir/ft_formats.c.o" \
+"CMakeFiles/printf.dir/ft_print_addr.c.o" \
+"CMakeFiles/printf.dir/ft_print_hex.c.o" \
+"CMakeFiles/printf.dir/ft_print_utils.c.o"
 
 # External object files for target printf
 printf_EXTERNAL_OBJECTS =
 
-printf: CMakeFiles/printf.dir/main.c.o
+printf: CMakeFiles/printf.dir/ft_printf.c.o
+printf: CMakeFiles/printf.dir/ft_formats.c.o
+printf: CMakeFiles/printf.dir/ft_print_addr.c.o
+printf: CMakeFiles/printf.dir/ft_print_hex.c.o
+printf: CMakeFiles/printf.dir/ft_print_utils.c.o
 printf: CMakeFiles/printf.dir/build.make
 printf: CMakeFiles/printf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/emre/Masaüstü/Printf-1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable printf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/emre/Masaüstü/Printf-1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable printf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/printf.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

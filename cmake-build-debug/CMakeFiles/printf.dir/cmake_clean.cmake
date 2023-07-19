@@ -1,6 +1,14 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/printf.dir/main.c.o"
-  "CMakeFiles/printf.dir/main.c.o.d"
+  "CMakeFiles/printf.dir/ft_formats.c.o"
+  "CMakeFiles/printf.dir/ft_formats.c.o.d"
+  "CMakeFiles/printf.dir/ft_print_addr.c.o"
+  "CMakeFiles/printf.dir/ft_print_addr.c.o.d"
+  "CMakeFiles/printf.dir/ft_print_hex.c.o"
+  "CMakeFiles/printf.dir/ft_print_hex.c.o.d"
+  "CMakeFiles/printf.dir/ft_print_utils.c.o"
+  "CMakeFiles/printf.dir/ft_print_utils.c.o.d"
+  "CMakeFiles/printf.dir/ft_printf.c.o"
+  "CMakeFiles/printf.dir/ft_printf.c.o.d"
   "printf"
   "printf.pdb"
 )

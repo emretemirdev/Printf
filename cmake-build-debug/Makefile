@@ -129,29 +129,125 @@ printf/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/printf.dir/build.make CMakeFiles/printf.dir/build
 .PHONY : printf/fast
 
-main.o: main.c.o
-.PHONY : main.o
+ft_formats.o: ft_formats.c.o
+.PHONY : ft_formats.o
 
 # target to build an object file
-main.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/printf.dir/build.make CMakeFiles/printf.dir/main.c.o
-.PHONY : main.c.o
+ft_formats.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/printf.dir/build.make CMakeFiles/printf.dir/ft_formats.c.o
+.PHONY : ft_formats.c.o
 
-main.i: main.c.i
-.PHONY : main.i
+ft_formats.i: ft_formats.c.i
+.PHONY : ft_formats.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/printf.dir/build.make CMakeFiles/printf.dir/main.c.i
-.PHONY : main.c.i
+ft_formats.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/printf.dir/build.make CMakeFiles/printf.dir/ft_formats.c.i
+.PHONY : ft_formats.c.i
 
-main.s: main.c.s
-.PHONY : main.s
+ft_formats.s: ft_formats.c.s
+.PHONY : ft_formats.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/printf.dir/build.make CMakeFiles/printf.dir/main.c.s
-.PHONY : main.c.s
+ft_formats.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/printf.dir/build.make CMakeFiles/printf.dir/ft_formats.c.s
+.PHONY : ft_formats.c.s
+
+ft_print_addr.o: ft_print_addr.c.o
+.PHONY : ft_print_addr.o
+
+# target to build an object file
+ft_print_addr.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/printf.dir/build.make CMakeFiles/printf.dir/ft_print_addr.c.o
+.PHONY : ft_print_addr.c.o
+
+ft_print_addr.i: ft_print_addr.c.i
+.PHONY : ft_print_addr.i
+
+# target to preprocess a source file
+ft_print_addr.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/printf.dir/build.make CMakeFiles/printf.dir/ft_print_addr.c.i
+.PHONY : ft_print_addr.c.i
+
+ft_print_addr.s: ft_print_addr.c.s
+.PHONY : ft_print_addr.s
+
+# target to generate assembly for a file
+ft_print_addr.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/printf.dir/build.make CMakeFiles/printf.dir/ft_print_addr.c.s
+.PHONY : ft_print_addr.c.s
+
+ft_print_hex.o: ft_print_hex.c.o
+.PHONY : ft_print_hex.o
+
+# target to build an object file
+ft_print_hex.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/printf.dir/build.make CMakeFiles/printf.dir/ft_print_hex.c.o
+.PHONY : ft_print_hex.c.o
+
+ft_print_hex.i: ft_print_hex.c.i
+.PHONY : ft_print_hex.i
+
+# target to preprocess a source file
+ft_print_hex.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/printf.dir/build.make CMakeFiles/printf.dir/ft_print_hex.c.i
+.PHONY : ft_print_hex.c.i
+
+ft_print_hex.s: ft_print_hex.c.s
+.PHONY : ft_print_hex.s
+
+# target to generate assembly for a file
+ft_print_hex.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/printf.dir/build.make CMakeFiles/printf.dir/ft_print_hex.c.s
+.PHONY : ft_print_hex.c.s
+
+ft_print_utils.o: ft_print_utils.c.o
+.PHONY : ft_print_utils.o
+
+# target to build an object file
+ft_print_utils.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/printf.dir/build.make CMakeFiles/printf.dir/ft_print_utils.c.o
+.PHONY : ft_print_utils.c.o
+
+ft_print_utils.i: ft_print_utils.c.i
+.PHONY : ft_print_utils.i
+
+# target to preprocess a source file
+ft_print_utils.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/printf.dir/build.make CMakeFiles/printf.dir/ft_print_utils.c.i
+.PHONY : ft_print_utils.c.i
+
+ft_print_utils.s: ft_print_utils.c.s
+.PHONY : ft_print_utils.s
+
+# target to generate assembly for a file
+ft_print_utils.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/printf.dir/build.make CMakeFiles/printf.dir/ft_print_utils.c.s
+.PHONY : ft_print_utils.c.s
+
+ft_printf.o: ft_printf.c.o
+.PHONY : ft_printf.o
+
+# target to build an object file
+ft_printf.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/printf.dir/build.make CMakeFiles/printf.dir/ft_printf.c.o
+.PHONY : ft_printf.c.o
+
+ft_printf.i: ft_printf.c.i
+.PHONY : ft_printf.i
+
+# target to preprocess a source file
+ft_printf.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/printf.dir/build.make CMakeFiles/printf.dir/ft_printf.c.i
+.PHONY : ft_printf.c.i
+
+ft_printf.s: ft_printf.c.s
+.PHONY : ft_printf.s
+
+# target to generate assembly for a file
+ft_printf.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/printf.dir/build.make CMakeFiles/printf.dir/ft_printf.c.s
+.PHONY : ft_printf.c.s
 
 # Help Target
 help:
@@ -162,9 +258,21 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... printf"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... ft_formats.o"
+	@echo "... ft_formats.i"
+	@echo "... ft_formats.s"
+	@echo "... ft_print_addr.o"
+	@echo "... ft_print_addr.i"
+	@echo "... ft_print_addr.s"
+	@echo "... ft_print_hex.o"
+	@echo "... ft_print_hex.i"
+	@echo "... ft_print_hex.s"
+	@echo "... ft_print_utils.o"
+	@echo "... ft_print_utils.i"
+	@echo "... ft_print_utils.s"
+	@echo "... ft_printf.o"
+	@echo "... ft_printf.i"
+	@echo "... ft_printf.s"
 .PHONY : help
 
 
