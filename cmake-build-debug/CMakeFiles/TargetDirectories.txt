@@ -1,3 +1,0 @@
-/home/emre/Masaüstü/Printf-1/cmake-build-debug/CMakeFiles/printf.dir
-/home/emre/Masaüstü/Printf-1/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/emre/Masaüstü/Printf-1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
