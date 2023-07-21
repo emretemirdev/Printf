@@ -6,10 +6,9 @@
 /*   By: emtemir <emtemir@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/21 13:26:06 by emtemir           #+#    #+#             */
-/*   Updated: 2023/07/21 13:27:26 by emtemir          ###   ########.fr       */
+/*   Updated: 2023/07/21 13:40:49 by emtemir          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
 
 #ifndef FT_PRINTF_H
 # define FT_PRINTF_H
