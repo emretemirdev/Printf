@@ -6,23 +6,19 @@
 /*   By: emtemir <emtemir@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/21 13:25:58 by emtemir           #+#    #+#             */
-/*   Updated: 2023/07/21 13:27:32 by emtemir          ###   ########.fr       */
+/*   Updated: 2023/07/23 01:02:00 by emre             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
 
-void	ft_put_hex(unsigned long long n, char *base)
-{
+void	ft_put_hex(unsigned long long n, char *base) {
     if (n < 16)
         ft_putchar(base[n]);
-    else if (n > 15)
-    {
+    else {
         ft_put_hex(n / 16, base);
         ft_put_hex(n % 16, base);
     }
-    else
-        ft_putchar(n + 48);
 }
 
 int	ft_print_hex(unsigned long long n, char format) {
