@@ -30,3 +30,8 @@ int	ft_printf(const char *s, ...) {
     va_end(ap);
     return (len);
 }
+
+int main()
+{
+    ft_printf("%s","emre");
+}
