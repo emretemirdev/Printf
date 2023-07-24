@@ -15,7 +15,6 @@
 int	ft_print_addr(unsigned long long n)
 {
 	int	len;
-
 	len = 0;
 	len += write(1, "0x", 2);
 	len += ft_print_hex(n, 'x');
